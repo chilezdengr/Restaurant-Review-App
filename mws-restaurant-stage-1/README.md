@@ -4,14 +4,14 @@
 
 * [Installation](#installation)
 * [Navigating the Webpage](#navigating)
-* [Build](#build)
-* [Appreciation](#appreciation)
+* [Restriction](#restriction)
+
 
 Restaurant Review App
-##Overview
+## Overview
 This project takes a site with static design that also lacks accessibility and converts the design to be responsive on different sized displays and accessible for screen reader use. It adds a service worker to ensure seemless experience for users.
 
-##Installation
+## Installation
 Get this project to your local machine by running git clone https://github.com/restaurant-review-app.git in the terminal.
 
 To run the app you need a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
@@ -23,5 +23,5 @@ Navigate to the js directory, open the dbhelper.js file and change the port to y
 You can now access the web app on your browser .
 
 
-##Restrictions
+## Restrictions
 This app uses service worker to cache the resources needed to render this site. I have not used any build tool to compile my js. So right now there is no way to automatically update the service worker when you make changes to your scripts. You have to manually update the myCache variable in serviceworker file(sw.js), each time you make updates to your scripts. Feel free to use a build tool when your make changes to the code base.
