@@ -12,7 +12,7 @@ Restaurant Review App
 This project takes a site with static design that also lacks accessibility and converts the design to be responsive on different sized displays and accessible for screen reader use. It adds a service worker to ensure seemless experience for users.
 
 ## Installation
-Get this project to your local machine by running git clone https://github.com/restaurant-review-app.git in the terminal.
+Get this project to your local machine by running git clone https://github.com/chilezdengr/Restaurant-Review-App.git in the terminal.
 
 To run the app you need a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
