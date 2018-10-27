@@ -24,4 +24,4 @@ You can now access the web app on your browser .
 
 
 ## Restrictions
-This app uses service worker to cache the resources needed to render this site. I have not used any build tool to compile my js. So right now there is no way to automatically update the service worker when you make changes to your scripts. You have to manually update the myCache variable in serviceworker file(sw.js), each time you make updates to your scripts. Feel free to use a build tool when your make changes to the code base.
+This app uses service worker to cache the resources needed to render this site. I have not used any build tool to compile my js. So right now there is no way to automatically update the service worker when you make changes to your scripts. You have to manually update the myCache variable in serviceworker file(serviceworker.js), each time you make updates to your scripts. Feel free to use a build tool (gulp or grunt) when your make changes to the code base.
